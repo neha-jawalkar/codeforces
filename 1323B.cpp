@@ -7,10 +7,10 @@ int main()
 {
     int n, m, k, cur, prev = 0, count = 0;
     cin >> n >> m >> k;
-    int AUXA[40001] = {0};
-    int AUXB[40001] = {0};
-    // vector<int> AUXA(n+1,0);
-    // vector<int> AUXB(m+1,0);
+    // int AUXA[40001] = {0};
+    // int AUXB[40001] = {0};
+    vector<int> AUXA(n+1,0);
+    vector<int> AUXB(m+1,0);
     for (int i = 0; i <= n; i++)
     {
         if (i < n)
